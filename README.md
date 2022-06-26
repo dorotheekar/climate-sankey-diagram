@@ -10,9 +10,7 @@ Generates a .svg graph from data_input.csv. It shows the width of each climate c
 
 #### Input :
 - ```data_input.csv``` : contains data
-
-#### Script :
-- ```fichier.py``` : colors are customizable in dictionnary
+- ```input.py``` : colors are customizable in dictionnary
 
 #### Output :
 - ```output.svg``` : name of the .svg file displaying the Sankers diagram generated in the directory
