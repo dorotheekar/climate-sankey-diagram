@@ -20,7 +20,7 @@ Generates a .svg graph from data_input.csv. It shows the width of each climate c
 #### Librairies:
 - ```requirements.txt``` : allows to install the libraries for the project (pip install -r requirements.txt)
 
-#### Polices d'écriture: à installer sous Windows
+#### Fontname :
 - ``` FontFont - Daxline Offc Bold```
 - ``` FontFont - Daxline Offc Light```
 - ```FontFont - Daxline SC Offc Bold```
