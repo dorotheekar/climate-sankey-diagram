@@ -9,21 +9,21 @@ Generates a .svg graph from data_input.csv. It shows the width of each climate c
 ### Parameters :
 
 #### Input :
-	- ```data_input.csv``` : contains data
+- ```data_input.csv``` : contains data
 
 #### Script :
-	- ```fichier.py``` : colors are customizable in dictionnary
+- ```fichier.py``` : colors are customizable in dictionnary
 
 #### Output :
-	- ```output``` : name of the .svg file displaying the Sankers diagram generated in the directory
+- ```output``` : name of the .svg file displaying the Sankers diagram generated in the directory
 
 #### Librairies:
-	- ```requirements.txt``` : allows to install the libraries for the project (pip install -r requirements.txt)
+- ```requirements.txt``` : allows to install the libraries for the project (pip install -r requirements.txt)
 
 #### Polices d'écriture: à installer sous Windows
-	-``` FontFont - Daxline Offc Bold
-	- FontFont - Daxline Offc Light
-	- FontFont - Daxline SC Offc Bold
-	- FontFont - Daxline SC Offc Light```
+-``` FontFont - Daxline Offc Bold```
+-``` FontFont - Daxline Offc Light```
+- ```FontFont - Daxline SC Offc Bold```
+-``` FontFont - Daxline SC Offc Light```
 
 
