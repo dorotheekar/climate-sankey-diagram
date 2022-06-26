@@ -1,30 +1,29 @@
 ## sankers-cout-climat
 
-Script pour générer un diagramme de Sankers pour représenter les coûts de différentes offres.
+Sankey diagram showing climate costs according to several offers.
 
-### Fonctionnement
+### Setup
 
-Le script génère un graphique svg à partir du fichier_input.csv pour lequel l'origine des coûts de chaque offre est affichée.
-Il y a 7 coûts différents et un nombre quelconque d'offres différentes. La somme des coûts doit être égale à 100.
+Generates a .svg graph from data_input.csv. It shows the width of each climate costs for individual offers. Number of offers is customizable. There's 7 different costs displayed in french. Number of costs has to be chosen and customed by user.
 
 ### Parameters :
 
 #### Input :
-	- fichier_input : nom du fichier .csv contenant les données
+- ```data_input.csv``` : contains data
 
 #### Script :
-	- fichier.py : couleurs sont modifiables dans le dictionnaires des couleurs colorDict.
+- ```fichier.py``` : colors are customizable in dictionnary
 
 #### Output :
-	- output : nom du fichier .svg affichant le diagramme de Sankers généré dans le repertoire
+- ```output.svg``` : name of the .svg file displaying the Sankers diagram generated in the directory
 
 #### Librairies:
-	- requirements.txt : permet d'installer les librairies pour le projet (pip install -r requirements.txt)
+- ```requirements.txt``` : allows to install the libraries for the project (pip install -r requirements.txt)
 
-#### Polices d'écriture: il faut les installers sous Windows
-	- FontFont - Daxline Offc Bold
-	- FontFont - Daxline Offc Light
-	- FontFont - Daxline SC Offc Bold
-	- FontFont - Daxline SC Offc Light
+#### Fontname :
+- ``` FontFont - Daxline Offc Bold```
+- ``` FontFont - Daxline Offc Light```
+- ```FontFont - Daxline SC Offc Bold```
+- ``` FontFont - Daxline SC Offc Light```
 
 
